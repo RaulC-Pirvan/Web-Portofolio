@@ -5,9 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Raul C. Pirvan</title>
         <link rel="stylesheet" href="styles.css">
-        <script src="scripts.js"></script>
+        
     </head>
     <body>
+        <div id="loading-screen">
+            <div class="loader"></div>
+        </div>
         <div class="header">
             <button id="aboutBtn">About</button>
             <button id="projectsBtn">Projects</button>
@@ -97,6 +100,9 @@
         <footer class="footer">
             <p>© 2024 Raul C. Pirvan. All rights reserved.</p>
         </footer>
-        <button id="scrollTopBtn" class="scroll-top-btn" onclick="scrollToTop()">Top</button>
+        <button id="scrollTopBtn" class="scroll-top-btn" onclick="scrollToTop()">
+            <img src="Resources/up.png" alt="Scroll To Top">
+        </button>
+        <script src="scripts.js"></script>
     </body>
 </html>
